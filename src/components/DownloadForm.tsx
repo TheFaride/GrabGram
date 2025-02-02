@@ -18,7 +18,7 @@ const DownloadForm = ({ onSubmit, loading }: DownloadFormProps) => {
         <input
           className=" grow border-1 rounded-md border-neutral-400 outline-0 pt-1 pb-2 px-3 text-base disabled:bg-neutral-100 disabled:cursor-not-allowed"
           type="url"
-          placeholder="insert Instagram linke here Download..."
+          placeholder="insert Instagram link here..."
           value={link}
           onChange={(e) => setLink(e.target.value)}
           disabled={loading}
