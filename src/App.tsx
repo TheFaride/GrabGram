@@ -21,7 +21,7 @@ const App = () => {
       setError(null);
       setLoading(true);
       const response = await fetch(
-        "https://downloader.almoloo.com/instagram?url=" + link,
+        "https://downloader2.almoloo.com/instagram?url=" + link,
         {
           method: "GET",
           headers: {
